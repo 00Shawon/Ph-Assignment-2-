@@ -108,10 +108,11 @@ nav{
 h4,h5{
   text-align: center;
 }
+
+/* lover------------------ */
  .flower-lover-container{
   display: flex;
-  gap: 100px;
-  
+  gap: 100px;  
 }
 .pic img{
   width: 100%;
@@ -248,7 +249,7 @@ footer{
   margin: 50px 0px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap: 100px;
+  grid-gap: 80px;
 }
 .icon-sction img{
   margin-right: 20px;
@@ -257,8 +258,9 @@ footer{
 .link-sction{
   display: grid;
   grid-template-columns: repeat(2,1fr);
+  gap: 20px;
 }
-.link-section a{
+.link-sction a{
  margin-bottom: 20px;
  font-size: 1rem;
 }
@@ -266,6 +268,10 @@ footer{
   display: none;
 }
 @media screen and (max-width:425px) {
+  nav{
+    margin: 0 10px;
+  }
+  
   section{
   margin: 50px 10px;
 }
@@ -322,6 +328,9 @@ p,li, a{
   height: 200px;
 }
 /* connect--------- */
+.connect{
+  background-size: cover;
+}
 .connect h2{
   color: white;
   margin-bottom: 20px;
