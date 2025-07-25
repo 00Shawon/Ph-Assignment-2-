@@ -248,13 +248,13 @@ footer{
   margin: 50px 0px;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  grid-gap: 50px;
+  grid-gap: 100px;
 }
-.icon-section img{
+.icon-sction img{
   margin-right: 20px;
 
 }
-.link-section{
+.link-sction{
   display: grid;
   grid-template-columns: repeat(2,1fr);
 }
@@ -281,7 +281,7 @@ p,li, a{
   margin-left: 10px;
   margin-right: 10px;
 }
-  .banner-content h1{
+  .banner-content h1, h2, .flower-lover-content h2{
   font-size: 1.5rem;
   margin-top: 50px;
   margin-bottom: 20px;
@@ -334,11 +334,15 @@ input{
 .footer-container{
   margin: 50px 10px;
   grid-template-columns: repeat(1,1fr);
-  grid-gap: 50px;
+  grid-gap: 0px;
 }
-.link-section{
+.link-sction{
   display: grid;
   grid-template-columns: repeat(1,1fr);
+}
+.link-sction a{
+  font-size: 14px;
+  margin-bottom: 15px;
 }
 
 #seal{
